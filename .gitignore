@@ -10,3 +10,4 @@ target/
 .clover
 *.log
 *~
+*.jar
