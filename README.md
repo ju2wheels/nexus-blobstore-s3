@@ -41,12 +41,11 @@ Also, there is a good amount of information available at [Bundle Development Ove
 Building
 --------
 
-To build the project and generate the bundle use Maven
+You can generate the Nexus blobstore S3 `jar` by running the following:
 
-    mvn clean install
-
-If everything checks out, the nexus-blobstore-s3 bundle  should be available in the `target` folder
-
+```
+NEXUS_BLOBSTORE_S3_TARGET=./target docker-compose up nexus_blobstore_s3
+```
 
 Installing
 ----------
